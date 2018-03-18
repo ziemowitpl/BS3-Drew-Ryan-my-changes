@@ -59,3 +59,8 @@ Jak powinno sie wykonywac:
 git status
 git commit -a -m "wiadomosc-message"
 git push
+To nie dziala ... Dziala to:
+git status
+git add .
+git commit -m "message-wiadomosc"
+git push
