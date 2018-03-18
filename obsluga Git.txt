@@ -1,0 +1,61 @@
+cd /d/nazwa_folderu
+przejscie na dysk d i zalozenie folderu
+---
+git init
+nowe repozytorium
+---
+git config --global user.name "ziemowitpl"
+dodaje usera do systemu globalnie na PC
+git config --global user.email "moj@mail.pl"
+dodaje adres email usera do systemu
+---
+git status
+wyswietla status plikow
+---
+git add .  
+dodaje wszystkie pliki
+---
+git commit -m "Wiadomosc"
+dodanie do repozytorium
+---
+git log
+wyswietlenie zmian "commit"
+---
+git clone <url>.git
+klonowanie repozytorium z GitHub
+---
+git checkout -b nazwa_glezi
+galaz
+---
+git push origin nazwa_galezi(lub bez nazwy master)
+---
+git log - historia commitow kto i kiedy wykonal z hashem
+ctrl+Q - ESC - ?
+---
+tworzenie nowej galezi
+git checkout -b nowa-galaz-nazwa
+prze³¹czenie siê na master
+git checkout master
+-
+Jeœli jestesmy na galezi nowa-galaz-nazwa
+git commit -a -m "koment"
+Przejscie na master
+git checkout master
+Na nowej galezi przejscie na nia
+git checkout nowa-galaz-nazwa
+Na nowej galezi
+git push --set -upstream origin nowa-galaz-nazwa
+push local branch nowa-galaz-nazwa (to wyzej)
+Sprawdzenie na której ga³êzi:
+git branch
+Skasowanie tej galezi na ktorej jestesmy:
+git branch --delete nowa-galaz-nazwa
+Sprawdzenie:
+git branch
+git status
+---
+
+Jak powinno sie wykonywac:
+git status
+git commit -a -m "wiadomosc-message"
+git push
